@@ -108,7 +108,9 @@ frontend/
    ```
 
 3. **Open in your browser:**  
-   Visit [http://localhost:3300](http://localhost:3300)
+   - Visit [http://localhost:3000](http://localhost:3000)
+
+   - Visit Production URL [https://certificate-generator-frontend-new.vercel.app/](https://certificate-generator-frontend-new.vercel.app/)
 
 
 ---
