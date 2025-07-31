@@ -20,7 +20,7 @@ const App = () => {
     setLoading(true);
     setError(null); 
     try {
-      const response = await fetch('http://localhost:3300/api/certificates', {
+      const response = await fetch('https://certificate-generator-app-backend.onrender.com/api/certificates', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ categoryName }),
