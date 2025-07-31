@@ -1,0 +1,38 @@
+.certificate-preview {
+  position: relative;
+  margin: 1rem 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-preview canvas { 
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.certificate-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 12px;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.certificate-error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+  border-radius: 12px;
+  color: #d63031;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+} 
